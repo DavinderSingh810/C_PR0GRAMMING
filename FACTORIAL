@@ -1,0 +1,20 @@
+                WAP TO FIND THE FACTORIAL OF A GIVEN NUMBER
+
+
+#include<stdio.h>
+
+int main()
+{
+    int i=0,n;  
+    printf("Enter a No :");
+    scanf("%d", &n);
+    int f=1;  
+    for(int i=1;i<=n;i++)
+
+         {
+          f=f*i;
+         }
+
+    printf("Your Factorial is= %d", f);
+     return 0;
+}
